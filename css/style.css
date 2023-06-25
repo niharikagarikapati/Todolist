@@ -1,0 +1,37 @@
+body{
+    margin: 20px auto;
+    width: 80%;
+    background-color: #ABC798;
+    border: 1px solid #4A314D;
+    padding: 10px;
+}
+.input-section{
+    display: flex;
+}
+ .input-section input{
+     flex: 1;
+ }
+.input-section button{
+    background-color: darkgrey;
+    padding: 5px;
+    color: white;
+    border: unset;
+}
+.list ul{
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.list ul li{
+    border: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.list ul li span.done{
+    text-decoration: line-through;
+}
+.list ul li span.close{
+    background-color: #7c14c2;
+    padding: 10px;
+}
